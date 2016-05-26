@@ -19,7 +19,7 @@ class TrueFix:
         if len(aps) == 0:
             return None
 
-        root_rq = etree.Element("LocationRQ", xmlns="http://trueposition.com/truefix", version="2.21")
+        root_rq = etree.Element("LocationRQ", xmlns="http://skyhookwireless.com/wps/2005", version="2.21")
         root_rq.set("street-address-lookup", "none");
         root_rq.set("profiling", "true");
 
